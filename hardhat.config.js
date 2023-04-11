@@ -47,13 +47,6 @@ module.exports = {
         apiKey: ETHERSCAN_API_KEY,
         // customChains: [], // uncomment this line if you are getting a TypeError: customChains is not iterable
     },
-    gasReporter: {
-        enabled: true,
-        currency: "USD",
-        outputFile: "gas-report.txt",
-        noColors: true,
-        // coinmarketcap: COINMARKETCAP_API_KEY,
-    },
     namedAccounts: {
         deployer: {
             default: 0, // here this will by default take the first account as deployer
